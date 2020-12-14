@@ -1,0 +1,24 @@
+ { "dropdowns" :[
+    {
+      "key": "brand",
+      "label": "Product Brand",
+      "options": [
+        {"key": "black",  "value":"Black"},
+        {"key": "white",  "value":"White"},
+        {"key": "pink",   "value":"Pink"}
+      ],
+        "order": 3
+    },
+
+    {
+      "key": "size",
+      "label": "Drink Size",
+      "options": [
+        {"key": "small",  "value":"Small"},
+        {"key": "medium",  "value":"Medium"},
+        {"key": "large",   "value":"Large"}
+      ],
+        "order": 3
+    }
+]
+}
