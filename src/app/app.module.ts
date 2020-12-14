@@ -6,8 +6,8 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule }  from  '@angular/common/http';
 
 import { DynamicFormComponent } from './dynamic-form/dynamic-form.component';
-import { DynamicFormQuestionComponent } from './dynamic-form-question/dynamic-form-question.component';
-import { ProductsComponent } from './products/products.component';
+import { DynamicFormQuestionComponent } from './dynamic-form/dynamic-form-question/dynamic-form-question.component';
+import { ProductsComponent } from './common-fields-formgroup/common-fields-controls/common-fields-controls.component';
 import { CommonFieldsFormgroupComponent } from './common-fields-formgroup/common-fields-formgroup.component';
 @NgModule({
   declarations: [

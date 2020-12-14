@@ -1,4 +1,4 @@
- { "dropdowns" :[
+ { "dropdowns":[
     {
       "key": "brand",
       "label": "Product Brand",
@@ -11,14 +11,15 @@
     },
 
     {
-      "key": "size",
-      "label": "Drink Size",
+      "key": "address",
+      "label": "Home Address",
       "options": [
-        {"key": "small",  "value":"Small"},
-        {"key": "medium",  "value":"Medium"},
-        {"key": "large",   "value":"Large"}
+        {"key": "manila",  "value":"Manila"},
+        {"key": "quezoncity",  "value":"Quezon City"},
+        {"key": "batangas",   "value":"Batangas"}
       ],
         "order": 3
     }
+
 ]
 }

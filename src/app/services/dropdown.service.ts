@@ -17,8 +17,8 @@ export class DropdownService {
   }
 
   getSize(){
-    return this.http.get('http://localhost:3000/dropdowns?key=size').pipe(map(fields =>  {
-      sessionStorage.setItem("Sizes", JSON.stringify(fields[0]));
+    return this.http.get('http://localhost:3000/dropdowns?key=address').pipe(map(fields =>  {
+      sessionStorage.setItem("Address", JSON.stringify(fields[0]));
     }))
   }
 }

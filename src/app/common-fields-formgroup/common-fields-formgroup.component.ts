@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { FormGroup } from '@angular/forms';
-import { DropdownService } from '../dropdown.service';
+import { DropdownService } from '../services/dropdown.service';
 import { QuestionBase } from '../question-base';
 import { QuestionControlService } from '../question-control.service';
 import { QuestionService } from '../question.service';

@@ -11,16 +11,16 @@ export class QuestionService {
   constructor(private http:HttpClient){}
   // TODO: get from a remote source of question metadata
   getQuestions() {
-    const Sizes = JSON.parse(sessionStorage.getItem('Sizes'));
+    const Address = JSON.parse(sessionStorage.getItem('Address'));
     const questions: QuestionBase<string>[] = [
 
       new DropdownQuestion({
-        key: Sizes.key,
-        label: Sizes.label,
-        options: Sizes.options,
-        order: Sizes.order
+        key: Address.key,
+        label: Address.label,
+        options: Address.options,
+        order: 4
       }),
-      
+
       new TextboxQuestion({
         key: 'firstName',
         label: 'First name',
@@ -30,10 +30,18 @@ export class QuestionService {
       }),
 
       new TextboxQuestion({
+        key: 'lastName',
+        label: 'Last name',
+        value: '',
+        required: true,
+        order: 2
+      }),
+
+      new TextboxQuestion({
         key: 'emailAddress',
         label: 'Email',
         type: 'email',
-        order: 2
+        order: 3
       })
     ];
 

@@ -1,11 +1,11 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { FormGroup } from '@angular/forms';
-import { QuestionBase } from '../question-base';
+import { QuestionBase } from '../../question-base';
 
 @Component({
   selector: 'app-products',
-  templateUrl: './products.component.html',
-  styleUrls: ['./products.component.css']
+  templateUrl: './common-fields-controls.component.html',
+  styleUrls: ['./common-fields-controls.component.css']
 })
 export class ProductsComponent {
   @Input() product: QuestionBase<string>;
