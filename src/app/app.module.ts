@@ -9,6 +9,7 @@ import { DynamicFormComponent } from './dynamic-form/dynamic-form.component';
 import { DynamicFormQuestionComponent } from './dynamic-form/dynamic-form-question/dynamic-form-question.component';
 import { ProductsComponent } from './common-fields-formgroup/common-fields-controls/common-fields-controls.component';
 import { CommonFieldsFormgroupComponent } from './common-fields-formgroup/common-fields-formgroup.component';
+import { MainRoutesModule } from './main-routes/main-routes.module';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +21,8 @@ import { CommonFieldsFormgroupComponent } from './common-fields-formgroup/common
   imports: [
     BrowserModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    MainRoutesModule
   ],
   providers: [],
   bootstrap: [AppComponent],
